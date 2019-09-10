@@ -1,0 +1,6 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="JumpToLastWindow" />
+  <action id="VimGotoDeclaration">
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
+</keymap>
