@@ -7,4 +7,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="wrap" value="public $name$(): TestContext {&#10;  return this.wrap(async () =&gt; {&#10;&#10;  });&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
