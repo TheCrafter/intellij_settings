@@ -1,0 +1,10 @@
+<templateSet group="Typescript">
+  <template name="test" value="{title: '$title$', f: (test): TestContext =&gt; {&#10;  return test;&#10;}}" toReformat="false" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TS_CLASS" value="false" />
+      <option name="TS_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
