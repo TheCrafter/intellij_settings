@@ -1,5 +1,5 @@
 <templateSet group="Typescript">
-  <template name="test" value="{title: '$title$', f: (test): TestContext =&gt; {&#10;  return test;&#10;}}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="test" value="{title: '$title$', f: (test): TestContext =&gt; {&#10;  return test;&#10;}}," description="" toReformat="false" toShortenFQNames="true">
     <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TS_CLASS" value="false" />
