@@ -13,4 +13,11 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="newtest" value="createTest('$title$', false, [&#10;  {title: '$testTitle$', f: (test): TestContext =&gt; {&#10;      return test;&#10;  }}&#10;]);" toReformat="false" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="testTitle" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
