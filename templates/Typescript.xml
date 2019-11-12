@@ -1,0 +1,23 @@
+<templateSet group="Typescript">
+  <template name="test" value="{title: '$title$', f: (test): TestContext =&gt; {&#10;  return test;&#10;}}," description="" toReformat="false" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TS_CLASS" value="false" />
+      <option name="TS_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="wrap" value="public $name$(): TestContext {&#10;  return this.wrap(async () =&gt; {&#10;&#10;  });&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="newtest" value="createTest('$title$', false, [&#10;  {title: '$testTitle$', f: (test): TestContext =&gt; {&#10;      return test;&#10;  }}&#10;]);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="testTitle" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
