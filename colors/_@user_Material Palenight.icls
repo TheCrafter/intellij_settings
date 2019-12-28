@@ -4,11 +4,11 @@
     <property name="created">2019-12-17T12:56:02</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.3.0.0</property>
-    <property name="modified">2019-12-17T12:57:13</property>
+    <property name="modified">2019-12-28T12:53:16</property>
     <property name="originalScheme">Material Palenight</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
-  <option name="EDITOR_FONT_SIZE" value="10" />
+  <option name="EDITOR_FONT_SIZE" value="11" />
   <option name="EDITOR_FONT_NAME" value="Fira Code" />
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Menlo" />
