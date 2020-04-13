@@ -4,12 +4,6 @@
   </action>
   <action id="ActivateTODOToolWindow" />
   <action id="JumpToLastWindow" />
-  <action id="MoveEditorToOppositeTabGroup">
-    <keyboard-shortcut first-keystroke="alt m" second-keystroke="alt v" />
-  </action>
-  <action id="MoveTabRight">
-    <keyboard-shortcut first-keystroke="alt s" second-keystroke="alt v" />
-  </action>
   <action id="UpdateRunningApplication" />
   <action id="VimGotoDeclaration">
     <keyboard-shortcut first-keystroke="f12" />
